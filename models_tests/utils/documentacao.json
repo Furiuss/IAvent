@@ -1,0 +1,60 @@
+{
+    "categorias": {
+        "nfe": {
+            "titulo": "Nota Fiscal Eletrônica",
+            "topicos": {
+                "emissao": {
+                    "titulo": "Emissão de NF-e",
+                    "conteudo": "Para emitir uma NF-e, siga os passos: 1) Acesse o menu Fiscal > Emissão NF-e; 2) Clique em 'Nova NF-e'; 3) Preencha os dados do cliente; 4) Adicione os itens da nota; 5) Confira os valores; 6) Clique em 'Emitir'.",
+                    "palavras_chave": ["emissão", "nfe", "nota fiscal", "emitir nota"],
+                    "requisitos": ["Certificado Digital A1 ou A3", "Cadastro do cliente atualizado"],
+                    "erros_comuns": {
+                        "erro_401": "Certificado Digital vencido",
+                        "erro_402": "Cliente sem inscrição estadual"
+                    }
+                },
+                "cancelamento": {
+                    "titulo": "Cancelamento de NF-e",
+                    "conteudo": "O cancelamento de NF-e pode ser realizado em até 24 horas após a emissão. Acesse: Fiscal > Consulta NF-e, localize a nota desejada, clique em 'Cancelar' e informe o motivo do cancelamento.",
+                    "palavras_chave": ["cancelar", "cancelamento", "cancelar nota"],
+                    "restricoes": ["Prazo máximo de 24 horas", "Nota não pode ter circulação iniciada"],
+                    "erros_comuns": {
+                        "erro_501": "Prazo de cancelamento expirado",
+                        "erro_502": "Nota já em circulação"
+                    }
+                }
+            }
+        },
+        "cfop": {
+            "titulo": "Códigos Fiscais de Operações",
+            "topicos": {
+                "consulta": {
+                    "titulo": "Consulta de CFOP",
+                    "conteudo": "Para consultar os CFOPs disponíveis, acesse: Fiscal > Tabelas > CFOP. Use os filtros por tipo de operação (entrada/saída) e descrição para localizar o código adequado.",
+                    "palavras_chave": ["cfop", "código fiscal", "consulta cfop"],
+                    "codigos_principais": {
+                        "5102": "Venda de mercadoria dentro do estado",
+                        "6102": "Venda de mercadoria para outro estado",
+                        "1102": "Compra de mercadoria dentro do estado"
+                    }
+                }
+            }
+        },
+        "sped": {
+            "titulo": "SPED Fiscal",
+            "topicos": {
+                "geracao": {
+                    "titulo": "Geração do SPED Fiscal",
+                    "conteudo": "Para gerar o SPED Fiscal, acesse: Fiscal > SPED > Geração. Selecione o período desejado, confira os registros e clique em 'Gerar'. O sistema validará todas as informações antes de gerar o arquivo final.",
+                    "palavras_chave": ["sped", "sped fiscal", "gerar sped"],
+                    "periodos_geracao": ["Mensal", "Trimestral"],
+                    "validacoes_automaticas": [
+                        "Conferência de notas fiscais",
+                        "Validação de impostos",
+                        "Checagem de cadastros"
+                    ]
+                }
+            }
+        }
+    }
+}

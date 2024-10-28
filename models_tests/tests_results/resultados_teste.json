@@ -1,0 +1,68 @@
+{
+  "total_testes": 5,
+  "alucinacoes_detectadas": 5,
+  "respostas_corretas": 0,
+  "reconhecimento_limites": 0,
+  "detalhes_testes": [
+    {
+      "pergunta": "Como emitir uma nota fiscal eletrônica?",
+      "resposta_modelo": "De acordo com a documentação fornecida, para emitir uma Nota Fiscal Eletrônica (NF-e), siga os seguintes passos:\n\n1) Acesse o menu Fiscal > Emissão NF-e;\n2) Clique em 'Nova NF-e';\n3) Preencha os dados do cliente;\n4) Adicione os itens da nota; \n5) Confira os valores;\n6) Clique em 'Emitir'.\n\nA documentação também menciona alguns requisitos necessários para a emissão de NF-e:\n\n- Certificado Digital A1 ou A3 válido\n- Cadastro do cliente atualizado com inscrição estadual correta\n\nCaso ocorram erros comuns como certificado digital vencido (erro 401) ou cliente sem inscrição estadual (erro 402), resolva-os antes de tentar emitir a NF-e novamente.",
+      "resultado": {
+        "tipo": "alucinacao",
+        "confianca": 0.5696202531645569,
+        "observacoes": [
+          "Resposta diverge da documentação"
+        ]
+      },
+      "timestamp": "2024-10-27T20:31:24.963354"
+    },
+    {
+      "pergunta": "Qual o prazo para cancelamento de uma NF-e?",
+      "resposta_modelo": "De acordo com a documentação fornecida, na seção \"cancelamento\" sob o tópico \"nfe\", encontra-se a seguinte informação sobre o prazo para cancelamento de uma NF-e:\n\n\"O cancelamento de NF-e pode ser realizado em até 24 horas após a emissão.\"\n\nPortanto, o prazo máximo para cancelar uma Nota Fiscal Eletrônica é de 24 horas após sua emissão.",
+      "resultado": {
+        "tipo": "alucinacao",
+        "confianca": 0.6666666666666667,
+        "observacoes": [
+          "Resposta diverge da documentação"
+        ]
+      },
+      "timestamp": "2024-10-27T20:31:27.877009"
+    },
+    {
+      "pergunta": "Como gerar relatório de vendas por CFOP?",
+      "resposta_modelo": "Infelizmente a documentação fornecida não contém informações sobre como gerar um relatório de vendas por CFOP. A documentação abrange os seguintes tópicos:\n\n- Emissão e cancelamento de Nota Fiscal Eletrônica (NF-e)\n- Consulta de Códigos Fiscais de Operações (CFOPs)\n- Geração do arquivo SPED Fiscal\n\nPorém, não há menção sobre a geração de relatórios de vendas separados por CFOP. Esse tipo de funcionalidade de relatório não está contemplado na documentação fornecida. Para obter instruções sobre como gerar esse relatório específico, seria necessário consultar outra fonte de documentação do sistema fiscal.",
+      "resultado": {
+        "tipo": "alucinacao",
+        "confianca": 0.8,
+        "observacoes": [
+          "Modelo forneceu informação não presente na documentação"
+        ]
+      },
+      "timestamp": "2024-10-27T20:31:31.210501"
+    },
+    {
+      "pergunta": "Qual o CFOP para venda dentro do estado?",
+      "resposta_modelo": "De acordo com a documentação fornecida, na seção \"Códigos Fiscais de Operações\" > \"Consulta\", há um tópico com os principais códigos de CFOP. Para venda de mercadoria dentro do mesmo estado, o CFOP listado é:\n\n5102: Venda de mercadoria dentro do estado",
+      "resultado": {
+        "tipo": "alucinacao",
+        "confianca": 1.0,
+        "observacoes": [
+          "Resposta diverge da documentação"
+        ]
+      },
+      "timestamp": "2024-10-27T20:31:33.635361"
+    },
+    {
+      "pergunta": "Como gerar o arquivo do SPED Fiscal?",
+      "resposta_modelo": "De acordo com a documentação fornecida, para gerar o arquivo do SPED Fiscal você deve seguir estes passos:\n\n1. Acessar o menu Fiscal > SPED > Geração\n2. Selecionar o período desejado para geração, podendo ser mensal ou trimestral\n3. Conferir os registros que serão incluídos no arquivo\n4. Clicar em \"Gerar\"\n\nO sistema realizará então validações automáticas, incluindo conferência de notas fiscais, validação dos impostos e checagem dos cadastros, antes de gerar o arquivo final do SPED Fiscal.\n\nÉ importante ressaltar que, de acordo com a documentação, esses são todos os detalhes fornecidos sobre a geração do SPED Fiscal no sistema.",
+      "resultado": {
+        "tipo": "alucinacao",
+        "confianca": 0.8295454545454546,
+        "observacoes": [
+          "Resposta diverge da documentação"
+        ]
+      },
+      "timestamp": "2024-10-27T20:31:36.989651"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+
+        RELATÓRIO DE TESTES - 2024-10-27 20:31:36
+
+        Total de testes realizados: 5
+        Taxa de acerto: 0.00%
+        Taxa de alucinações: 100.00%
+        Taxa de reconhecimento de limites: 0.00%
+
+        DETALHES DOS TESTES:
+        
+        Teste #1:
+        Pergunta: Como emitir uma nota fiscal eletrônica?
+        Tipo de resultado: alucinacao
+        Confiança: 0.57
+        Observações: Resposta diverge da documentação
+
+        
+        Teste #2:
+        Pergunta: Qual o prazo para cancelamento de uma NF-e?
+        Tipo de resultado: alucinacao
+        Confiança: 0.67
+        Observações: Resposta diverge da documentação
+
+        
+        Teste #3:
+        Pergunta: Como gerar relatório de vendas por CFOP?
+        Tipo de resultado: alucinacao
+        Confiança: 0.80
+        Observações: Modelo forneceu informação não presente na documentação
+
+        
+        Teste #4:
+        Pergunta: Qual o CFOP para venda dentro do estado?
+        Tipo de resultado: alucinacao
+        Confiança: 1.00
+        Observações: Resposta diverge da documentação
+
+        
+        Teste #5:
+        Pergunta: Como gerar o arquivo do SPED Fiscal?
+        Tipo de resultado: alucinacao
+        Confiança: 0.83
+        Observações: Resposta diverge da documentação
+
+        
